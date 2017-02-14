@@ -1,0 +1,277 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.dream.aggregation.fragment.VideoSubFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:scrollbars="vertical">
+
+            <com.youth.banner.Banner xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/banner"
+                android:layout_width="match_parent"
+                android:layout_height="185dp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="10dp"
+                android:background="@color/lightGray"/>
+            <RelativeLayout
+                android:id="@+id/LushiView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="炉石传说"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:text="更多"
+                    android:textColor="#777880"
+                    android:textSize="13sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:focusable="false"
+                    android:src="@drawable/ic_arrow_right" />
+            </RelativeLayout>
+
+            <com.dream.aggregation.view.CustomGridView
+                android:id="@+id/LushiGridView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginBottom="8dp"
+                android:numColumns="2"></com.dream.aggregation.view.CustomGridView>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="10dp"
+                android:background="@color/lightGray"/>
+            <RelativeLayout
+                android:id="@+id/YingxiongView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="英雄联盟"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:text="更多"
+                    android:textColor="#777880"
+                    android:textSize="13sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:focusable="false"
+                    android:src="@drawable/ic_arrow_right" />
+            </RelativeLayout>
+
+            <com.dream.aggregation.view.CustomGridView
+                android:id="@+id/YingxiongGridView"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:background="@color/white"
+                android:layout_marginBottom="8dp"
+                android:numColumns="2"></com.dream.aggregation.view.CustomGridView>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="10dp"
+                android:background="@color/lightGray"/>
+            <RelativeLayout
+                android:id="@+id/DOTA2View"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="DOTA2"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:text="更多"
+                    android:textColor="#777880"
+                    android:textSize="13sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:focusable="false"
+                    android:src="@drawable/ic_arrow_right" />
+            </RelativeLayout>
+
+            <com.dream.aggregation.view.CustomGridView
+                android:id="@+id/DOTA2GridView"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:background="@color/white"
+                android:layout_marginBottom="8dp"
+                android:numColumns="2"></com.dream.aggregation.view.CustomGridView>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="10dp"
+                android:background="@color/lightGray"/>
+            <RelativeLayout
+                android:id="@+id/ZhujiView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="主机游戏"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:text="更多"
+                    android:textColor="#777880"
+                    android:textSize="13sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:focusable="false"
+                    android:src="@drawable/ic_arrow_right" />
+            </RelativeLayout>
+
+            <com.dream.aggregation.view.CustomGridView
+                android:id="@+id/ZhujiGridView"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:background="@color/white"
+                android:layout_marginBottom="8dp"
+                android:numColumns="2"></com.dream.aggregation.view.CustomGridView>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="10dp"
+                android:background="@color/lightGray"/>
+            <RelativeLayout
+                android:id="@+id/ShouwangView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="守望先锋"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:text="更多"
+                    android:textColor="#777880"
+                    android:textSize="13sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:focusable="false"
+                    android:src="@drawable/ic_arrow_right" />
+            </RelativeLayout>
+
+            <com.dream.aggregation.view.CustomGridView
+                android:id="@+id/ShouwangGridView"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:background="@color/white"
+                android:layout_marginBottom="65dp"
+                android:numColumns="2"></com.dream.aggregation.view.CustomGridView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

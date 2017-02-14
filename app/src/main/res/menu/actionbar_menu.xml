@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/filtershow_history"
+        android:icon="@drawable/filtershow_button_history"
+        app:showAsAction="always"
+        android:title="历史"/>
+    <item
+        android:id="@+id/filtershow_like"
+        android:icon="@drawable/filtershow_button_like"
+        app:showAsAction="always"
+        android:title="收藏"/>
+    <item
+        android:id="@+id/filtershow_search"
+        android:icon="@drawable/filtershow_button_search"
+        app:showAsAction="always"
+        android:title="搜索"/>
+</menu>

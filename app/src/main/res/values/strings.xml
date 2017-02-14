@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">梦想聚合</string>
+    <string name="bottom_home">主页</string>
+    <string name="bottom_video">直播</string>
+    <string name="bottom_tv">电视</string>
+    <string name="bottom_movie">视频</string>
+    <string name="bottom_user">我的</string>
+    <string name="wait_msg">地址解析中...</string>
+    <string name="timeout_msg">地址解析错误</string>
+
+
+</resources>
